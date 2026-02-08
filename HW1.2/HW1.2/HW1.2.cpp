@@ -59,7 +59,7 @@ private:
         }
 
         // 處理最高位 carry
-        while (carry > 0) {
+        while (carry > 0 && a.first >= 0) {
             a.digits[--a.first] = carry % 10;
             carry /= 10;
         }

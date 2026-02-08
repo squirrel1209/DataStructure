@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\test\\SelectSort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39BB9C2A-5295-4CAF-B64F-95823E4D04E1}|SelectSort\\SelectSort.vcxproj|D:\\test\\SelectSort\\SelectSort\\SelectSort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{39BB9C2A-5295-4CAF-B64F-95823E4D04E1}|SelectSort\\SelectSort.vcxproj|solutionrelative:SelectSort\\SelectSort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SelectSort.cpp",
+              "DocumentMoniker": "D:\\test\\SelectSort\\SelectSort\\SelectSort.cpp",
+              "RelativeDocumentMoniker": "SelectSort\\SelectSort.cpp",
+              "ToolTip": "D:\\test\\SelectSort\\SelectSort\\SelectSort.cpp",
+              "RelativeToolTip": "SelectSort\\SelectSort.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-19T12:48:08.826Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

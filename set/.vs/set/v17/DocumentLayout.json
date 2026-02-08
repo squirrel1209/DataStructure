@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\test\\set\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66EC5D55-D898-4CB9-B50F-D28D04871F78}|set\\set.vcxproj|D:\\test\\set\\set\\set.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66EC5D55-D898-4CB9-B50F-D28D04871F78}|set\\set.vcxproj|solutionrelative:set\\set.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66EC5D55-D898-4CB9-B50F-D28D04871F78}|set\\set.vcxproj|D:\\test\\set\\set\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66EC5D55-D898-4CB9-B50F-D28D04871F78}|set\\set.vcxproj|solutionrelative:set\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66EC5D55-D898-4CB9-B50F-D28D04871F78}|set\\set.vcxproj|D:\\test\\set\\set\\set.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66EC5D55-D898-4CB9-B50F-D28D04871F78}|set\\set.vcxproj|solutionrelative:set\\set.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "set.hpp",
+              "DocumentMoniker": "D:\\test\\set\\set\\set.hpp",
+              "RelativeDocumentMoniker": "set\\set.hpp",
+              "ToolTip": "D:\\test\\set\\set\\set.hpp",
+              "RelativeToolTip": "set\\set.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-25T09:36:26.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\test\\set\\set\\main.cpp",
+              "RelativeDocumentMoniker": "set\\main.cpp",
+              "ToolTip": "D:\\test\\set\\set\\main.cpp",
+              "RelativeToolTip": "set\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-22T13:30:38.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "set.cpp",
+              "DocumentMoniker": "D:\\test\\set\\set\\set.cpp",
+              "RelativeDocumentMoniker": "set\\set.cpp",
+              "ToolTip": "D:\\test\\set\\set\\set.cpp",
+              "RelativeToolTip": "set\\set.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-22T13:16:02.001Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\test\\Polynomial\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64C9EE62-7218-4850-AE5D-70289FE49A5F}|Polynomial\\Polynomial.vcxproj|D:\\test\\Polynomial\\Polynomial\\Polynomial.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{64C9EE62-7218-4850-AE5D-70289FE49A5F}|Polynomial\\Polynomial.vcxproj|solutionrelative:Polynomial\\Polynomial.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64C9EE62-7218-4850-AE5D-70289FE49A5F}|Polynomial\\Polynomial.vcxproj|D:\\test\\Polynomial\\Polynomial\\Polynomial.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{64C9EE62-7218-4850-AE5D-70289FE49A5F}|Polynomial\\Polynomial.vcxproj|solutionrelative:Polynomial\\Polynomial.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Polynomial.hpp",
+              "DocumentMoniker": "D:\\test\\Polynomial\\Polynomial\\Polynomial.hpp",
+              "RelativeDocumentMoniker": "Polynomial\\Polynomial.hpp",
+              "ToolTip": "D:\\test\\Polynomial\\Polynomial\\Polynomial.hpp",
+              "RelativeToolTip": "Polynomial\\Polynomial.hpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-29T12:43:46.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Polynomial.cpp",
+              "DocumentMoniker": "D:\\test\\Polynomial\\Polynomial\\Polynomial.cpp",
+              "RelativeDocumentMoniker": "Polynomial\\Polynomial.cpp",
+              "ToolTip": "D:\\test\\Polynomial\\Polynomial\\Polynomial.cpp",
+              "RelativeToolTip": "Polynomial\\Polynomial.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-29T12:43:08.605Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

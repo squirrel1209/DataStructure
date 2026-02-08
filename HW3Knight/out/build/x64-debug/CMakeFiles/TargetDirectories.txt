@@ -1,0 +1,5 @@
+D:/test/HW3Knight/out/build/x64-debug/CMakeFiles/edit_cache.dir
+D:/test/HW3Knight/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+D:/test/HW3Knight/out/build/x64-debug/HW3Knight/CMakeFiles/HW3Knight.dir
+D:/test/HW3Knight/out/build/x64-debug/HW3Knight/CMakeFiles/edit_cache.dir
+D:/test/HW3Knight/out/build/x64-debug/HW3Knight/CMakeFiles/rebuild_cache.dir

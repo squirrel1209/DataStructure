@@ -1,0 +1,70 @@
+Knight
+變數
+資料成員
+
+vector<vector<int>> checkerboard
+n x n 棋盤
+
+0 代表未走過
+1~n*n 代表步數
+
+int size
+棋盤大小
+
+int moveCount
+目前已走步數
+
+vector<pair<int,int>> moves
+Knight 的 8 種移動方向
+
+stack<State>
+用於 backtracking
+
+State 包含：
+目前位置 (i, j)
+移動的方向 index
+
+方法:
+Knight(int n) 初始化 n*n 棋盤
+bool isValidMove(int x, int y)
+判斷：
+是否在棋盤內
+是否尚未走過
+
+void run()
+執行 Knight Tour 搜尋
+
+
+演算法
+run:
+變數說明:
+i、j:紀錄當前所在的位置
+next_i、next_j 下個移動的位置
+found:是否有在 遍歷 moves中 找到可以移動的位置
+
+
+演算法流程（run）
+1.初始化：
+i = 0, j = 0
+moveCount = 1
+checkerboard[0][0] = 1
+
+2.while moveCount < size * size:
+對 moves 中每個方向嘗試：
+計算 next_i, next_j
+
+	若 isValidMove:
+		moveCount++
+		checkerboard[next_i][next_j] = moveCount
+		將 (i, j, direction) push 到 stack
+		更新 i, j
+		break
+
+若所有方向都不可走：
+若 stack 為空 → 無解，結束
+
+否則：
+pop 上一步位置
+回退 moveCount
+清除棋盤該格
+從下一個方向重新嘗試

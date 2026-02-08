@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/test/HW3Knight/out/build/x64-debug/HW3Knight/CMakeFiles/HW3Knight.dir/embed.manifest"

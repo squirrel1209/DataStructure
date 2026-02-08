@@ -8,30 +8,30 @@ public:
         int row;
         int column;
     };
-
+   
     RubikSquare(int n) : size(n), matrix(size, vector<int>(size, 0)) {}
 
     void generate() {
-        position now{ 0, size / 2 };
+        position next{ 0, size / 2 };
         position last{ 0, size / 2 };
 
         for (int i = 1; i <= size * size; i++) {
-            if (now.row < 0) now.row += size;           // 超出上邊界
-            if (now.column < 0) now.column += size;     // 超出左邊界
+            if (next.row < 0) next.row += size;           // 超出上邊界
+            if (next.column < 0) next.column += size;     // 超出左邊界
 
-            if (matrix[now.row][now.column] == 0) {    // 位置沒空
-                matrix[now.row][now.column] = i;
+            if (matrix[next.row][next.column] == 0) {    // 位置沒空
+                matrix[next.row][next.column] = i;
             }
             else {                                     // 位置有數字
-                now = last;
-                now.row++;
-                if (now.row >= size) now.row = 0;     // 防止越界
-                matrix[now.row][now.column] = i;
+                next = last;
+                next.row++;
+                if (next.row >= size) next.row = 0;     // 防止越界
+                matrix[next.row][next.column] = i;
             }
 
-            last = now;
-            now.row--;
-            now.column--;
+            last = next;
+            next.row--;
+            next.column--;
         }
     }
 

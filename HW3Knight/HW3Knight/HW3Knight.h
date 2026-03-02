@@ -27,8 +27,8 @@ public:
 	void printBoard() const;
 	bool isValidMove(int i, int j) const;
 	bool run();
+	bool resursion(int i, int j);
 private:
-
 	vector<vector<int>> checkerboard;
 	int size;
 	int moveCount = 1;

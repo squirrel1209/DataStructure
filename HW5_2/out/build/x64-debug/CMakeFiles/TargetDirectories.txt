@@ -1,0 +1,5 @@
+D:/test/HW5_2/out/build/x64-debug/CMakeFiles/edit_cache.dir
+D:/test/HW5_2/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+D:/test/HW5_2/out/build/x64-debug/HW5_2/CMakeFiles/HW5_2.dir
+D:/test/HW5_2/out/build/x64-debug/HW5_2/CMakeFiles/edit_cache.dir
+D:/test/HW5_2/out/build/x64-debug/HW5_2/CMakeFiles/rebuild_cache.dir

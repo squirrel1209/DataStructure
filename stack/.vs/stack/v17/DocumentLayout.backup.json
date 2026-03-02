@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{8AFDAC6C-972A-4F0A-A602-B7F524299D8E}|stack\\stack.vcxproj|D:\\test\\stack\\stack\\stack.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8AFDAC6C-972A-4F0A-A602-B7F524299D8E}|stack\\stack.vcxproj|solutionrelative:stack\\stack.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFDAC6C-972A-4F0A-A602-B7F524299D8E}|stack\\stack.vcxproj|D:\\test\\stack\\stack\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8AFDAC6C-972A-4F0A-A602-B7F524299D8E}|stack\\stack.vcxproj|solutionrelative:stack\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\test\\stack\\stack\\main.cpp",
+              "RelativeDocumentMoniker": "stack\\main.cpp",
+              "ToolTip": "D:\\test\\stack\\stack\\main.cpp",
+              "RelativeToolTip": "stack\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-14T07:01:39.797Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,7 +45,7 @@
               "RelativeDocumentMoniker": "stack\\stack.hpp",
               "ToolTip": "D:\\test\\stack\\stack\\stack.hpp",
               "RelativeToolTip": "stack\\stack.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-02T12:43:22.79Z",
               "EditorCaption": ""
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "stack\\stack.cpp",
               "ToolTip": "D:\\test\\stack\\stack\\stack.cpp",
               "RelativeToolTip": "stack\\stack.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAwwC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-02T12:42:42.764Z",
               "EditorCaption": ""

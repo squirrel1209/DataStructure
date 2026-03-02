@@ -1,3 +1,8 @@
-﻿  stack.cpp
-MSVCRTD.lib(exe_main.obj) : error LNK2019: 在函式 main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中參考了無法解析的外部符號
-D:\test\stack\x64\Debug\stack.exe : fatal error LNK1120: 1 個無法解析的外部符號
+﻿  main.cpp
+main.obj : error LNK2019: 在函式 "public: __cdecl Stack<int>::Stack<int>(int)" (??0?$Stack@H@@QEAA@H@Z)main 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 "public: __cdecl Stack<int>::~Stack<int>(void)" (??1?$Stack@H@@QEAA@XZ)main 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 "public: bool __cdecl Stack<int>::IsEmpty(void)const " (?IsEmpty@?$Stack@H@@QEBA_NXZ)main 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 "public: int & __cdecl Stack<int>::Top(void)" (?Top@?$Stack@H@@QEAAAEAHXZ)main 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 "public: void __cdecl Stack<int>::push(int const &)" (?push@?$Stack@H@@QEAAXAEBH@Z)main 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 "public: void __cdecl Stack<int>::pop(void)" (?pop@?$Stack@H@@QEAAXXZ)main 中參考了無法解析的外部符號
+D:\test\stack\x64\Debug\stack.exe : fatal error LNK1120: 6 個無法解析的外部符號

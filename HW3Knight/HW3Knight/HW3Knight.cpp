@@ -48,9 +48,9 @@ bool Knight::run() {
 				checkerboard[i][j] = 0; // 回溯，清除拜訪紀錄
 				i = lastMove.i;
 				j = lastMove.j;
-				moveCount--;
 				moveIndex = lastMove.direction;
-				moveIndex++;
+				moveCount--;
+				moveIndex++;   // 從下個移動方位的編號開始繼續尋找
 			}
 		}
 
@@ -69,10 +69,29 @@ void Knight::printBoard() const {
 	}
 }
 
+bool Knight::resursion(int i, int j) {
+	if (moveCount > size * size) {
+		return true; // 已完成騎士巡邏
+	}
+
+	else if (isValidMove(i, j)) {
+		checkerboard[i][j] = moveCount++; // 標記當前位置為已拜訪
+		for (const auto& move : moves) {
+			int next_i = i + move.first;
+			int next_j = j + move.second;
+			if (resursion(next_i, next_j)) {
+				return true; // 成功完成巡邏
+			}
+		}
+		checkerboard[i][j] = 0; // 回溯，清除拜訪紀錄
+		moveCount--; // 回退移動計數
+	}
+	return false;
+}
 
 int main() {
 	Knight knight(5);
-	bool complete = knight.run();
+	bool complete = knight.resursion(0,0);
 	if (complete) {
 		cout << "Knight's tour completed successfully!" << endl;
 		knight.printBoard();
